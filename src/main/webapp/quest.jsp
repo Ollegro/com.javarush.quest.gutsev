@@ -40,7 +40,7 @@
         }
     </style>
 </head>
-<body>
+<body class="quest-page">
 <jsp:include page="header.jsp"></jsp:include>
 
 <section class="section margin-top-large">

@@ -6,10 +6,8 @@ import jakarta.servlet.http.HttpSession;
 import model.GameServlet;
 import org.junit.jupiter.api.Test;
 import repository.QuestionManager;
-
 import java.io.IOException;
 import java.util.List;
-
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
@@ -56,4 +54,10 @@ public class ServletTest {
         verify(session).setAttribute(eq("question"), any(Question.class));
         verify(response).sendRedirect("/quest.jsp");
     }
+
+
+
+
 }
+
+
