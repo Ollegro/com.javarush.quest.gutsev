@@ -13,5 +13,6 @@ public class InitServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getSession(true);
         getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+
     }
 }

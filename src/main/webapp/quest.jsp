@@ -19,6 +19,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            padding: 5px;
         }
         .margin-top-large {
             margin-top: 100px; /* Adjust this value as needed */
